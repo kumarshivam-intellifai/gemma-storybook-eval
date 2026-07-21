@@ -77,7 +77,7 @@ def main() -> int:
     parser.add_argument(
         '--enable-prefix-caching',
         action=argparse.BooleanOptionalAction,
-        default=True,
+        default=False,
         help='Enable vLLM prefix caching; use --no-enable-prefix-caching to disable it.',
     )
     parser.add_argument('--run-id', default=None)

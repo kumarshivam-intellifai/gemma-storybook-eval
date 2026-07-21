@@ -64,14 +64,14 @@ python run_vllm_simple_latency.py \
   --gpu-memory-utilization 0.90
 ```
 
-Prefix caching is enabled explicitly by default. Run the same test with it
-disabled without editing source code:
+Prefix caching is disabled explicitly by default. To compare with prefix
+caching enabled without editing source code:
 
 ```bash
 python run_vllm_simple_latency.py \
   --model nvidia/Gemma-4-26B-A4B-NVFP4 \
   --gpu-memory-utilization 0.90 \
-  --no-enable-prefix-caching
+  --enable-prefix-caching
 ```
 
 If CUDA is not installed at `/usr/local/cuda`, pass its location:
