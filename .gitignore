@@ -7,9 +7,9 @@ __pycache__/
 *.py[cod]
 .pytest_cache/
 
-promptfoo_eval/node_modules/
-promptfoo_eval/.promptfoo/
-promptfoo_eval/results/
+vllm_runs/
+.cache/
 
 *.log
+*.jsonl
 .DS_Store

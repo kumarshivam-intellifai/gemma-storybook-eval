@@ -1,119 +1,104 @@
-# Gemma NVFP4 storybook evaluation
+# Gemma NVFP4 simple vLLM inference benchmark
 
-This repository runs the complete 64-prompt storybook evaluation against
-[`nvidia/Gemma-4-26B-A4B-NVFP4`](https://huggingface.co/nvidia/Gemma-4-26B-A4B-NVFP4)
-through a local vLLM OpenAI-compatible server. Promptfoo produces JSON and HTML
-reports, and the included Python grader checks page structure, title/author
-fidelity, character/object coverage, moral coverage, image prompts, and cover
-requirements.
+This repository contains the standalone inference and latency runner used for
+`nvidia/Gemma-4-26B-A4B-NVFP4`. It starts a local vLLM server, sends the
+storybook prompt as streaming OpenAI-compatible chat requests, and reports
+time-to-first-token (TTFT), end-to-end latency, and output-token throughput.
 
-The repository contains test code and prompts only. It does not contain model
-weights, Hugging Face credentials, virtual environments, caches, or generated
-reports.
+This is the simple inference benchmark only. It does not contain or run
+Promptfoo.
+
+## Files
+
+- `run_vllm_simple_latency.py`: command-line entrypoint and summary table
+- `run_vllm_latency_matrix.py`: vLLM server lifecycle and concurrent request engine
+- `prompt_cases.json`: 64 available storybook inputs; the default is the original 20-page Ava case
+- `requirements.txt`: verified vLLM version
 
 ## Requirements
 
 - Linux with an NVIDIA GPU and enough VRAM for the model
-- A compatible NVIDIA driver/CUDA installation
+- A compatible NVIDIA driver and CUDA toolkit
 - Python 3.10+
-- Node.js 20+
 - Hugging Face access to the model, if its license requires acceptance
 
 The verified environment used Python 3.10.12, vLLM 0.25.1,
-PyTorch 2.11.0+cu130, Transformers 5.14.1, Node.js 24.18.0, and Promptfoo
-0.121.19. The Python requirements pin vLLM; its package dependencies install a
-compatible serving stack for the selected platform.
+PyTorch 2.11.0+cu130, and Transformers 5.14.1.
 
 ## Install
 
-From the repository root:
-
 ```bash
+git clone https://github.com/kumarshivam-intellifai/gemma-storybook-promptfoo-eval.git
+cd gemma-storybook-promptfoo-eval
+
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
-
-cd promptfoo_eval
-npm ci
 ```
 
-If required, authenticate with Hugging Face without saving a token in this
-repository:
+If Hugging Face authentication is required, export a token in your shell; do
+not commit it:
 
 ```bash
 export HF_TOKEN=your_token_here
 ```
 
-## Run all 64 prompts
+## Run the same inference test
 
-From `promptfoo_eval` with the Python environment activated:
+Activate the vLLM virtual environment and run:
 
 ```bash
-./run_gemma_promptfoo_full_eval.sh
+python run_vllm_simple_latency.py \
+  --model nvidia/Gemma-4-26B-A4B-NVFP4 \
+  --gpu-memory-utilization 0.90
 ```
 
-You can also point the runner at an existing vLLM environment explicitly:
+The default concurrency sweep is `1,4,8,16,32,64`, with one request per active
+slot. For a quick single-request check:
 
 ```bash
-VLLM_BIN=/path/to/venv/bin/vllm \
-PYTHON_BIN=/path/to/venv/bin/python \
-./run_gemma_promptfoo_full_eval.sh
+python run_vllm_simple_latency.py \
+  --model nvidia/Gemma-4-26B-A4B-NVFP4 \
+  --concurrency 1 \
+  --gpu-memory-utilization 0.90
 ```
 
-The defaults reproduce the verified server configuration:
-
-- model: `nvidia/Gemma-4-26B-A4B-NVFP4`
-- GPU memory utilization: `0.90`
-- maximum model length: `32768`
-- maximum sequences: `1`
-- maximum batched tokens: `8192`
-- Promptfoo concurrency: `1`
-- temperature: `0.7`
-- top-p: `0.9`
-- prefix caching: enabled explicitly
-
-Supported overrides include:
+Prefix caching is enabled explicitly by default. Run the same test with it
+disabled without editing source code:
 
 ```bash
-GPU_MEMORY_UTILIZATION=0.85 MAX_MODEL_LEN=24576 ./run_gemma_promptfoo_full_eval.sh
+python run_vllm_simple_latency.py \
+  --model nvidia/Gemma-4-26B-A4B-NVFP4 \
+  --gpu-memory-utilization 0.90 \
+  --no-enable-prefix-caching
 ```
 
-To compare with prefix caching disabled, do not edit any source file:
+If CUDA is not installed at `/usr/local/cuda`, pass its location:
 
 ```bash
-PREFIX_CACHING=false ./run_gemma_promptfoo_full_eval.sh
+python run_vllm_simple_latency.py \
+  --model nvidia/Gemma-4-26B-A4B-NVFP4 \
+  --cuda-home /usr/local/cuda-13.1
+```
+
+To inspect the generated vLLM command without starting the model:
+
+```bash
+python run_vllm_simple_latency.py \
+  --model nvidia/Gemma-4-26B-A4B-NVFP4 \
+  --dry-run
 ```
 
 ## Results
 
-Each invocation creates a timestamped directory under
-`promptfoo_eval/results/`. Important files are:
+Each run creates `vllm_runs/<run-id>/` containing:
 
-- `results.html`: shareable Promptfoo HTML report
-- `results.json`: complete machine-readable Promptfoo output
-- `summary.json` and `cases.csv`: compact raw-result summaries
-- `regraded_summary.json` and `regraded_cases.csv`: independently audited scores
-- `vllm_server.log`: server startup and runtime log
+- `summary.jsonl`: aggregate TTFT, latency, throughput, and GPU metrics
+- `requests.jsonl`: per-request metrics and errors
+- `quality_outputs.jsonl`: complete generated text for inspection
+- `server_*.log`: the vLLM server log
 
-Promptfoo may return a non-zero exit code when one or more quality assertions
-fail. That does not mean the evaluation failed to run; inspect `results.html`
-and the audited summary. Server startup or dependency errors are printed with a
-path to the vLLM log.
-
-## Repository layout
-
-```text
-.
-├── prompt_cases.json
-├── system_prompt.txt
-├── requirements.txt
-└── promptfoo_eval/
-    ├── promptfooconfig_full.yaml
-    ├── run_gemma_promptfoo_full_eval.sh
-    ├── generate_prompt.py
-    ├── generate_full_tests.py
-    ├── storybook_assertions_full.py
-    ├── summarize_full_results.py
-    └── regrade_full_results.py
-```
+The runner also prints a compact table after the benchmark completes. Model
+weights, Hugging Face credentials, caches, and benchmark outputs are excluded
+from Git.
