@@ -1,0 +1,2 @@
+# Version used for the verified Gemma NVFP4 run.
+vllm==0.25.1

@@ -1,0 +1,450 @@
+[
+  {
+    "id": "latency_20page_ava_and_the_glowing_pebble",
+    "difficulty": "hard",
+    "max_tokens": 14600,
+    "description": "20-page long-form exact-count and character-continuity latency test.",
+    "input": "Story Summary: A child named Ava finds a glowing pebble in the backyard garden. With help from toy robot Pip, Ava learns that sharing makes a small light brighter.\nStory Type: Moral\nNumber of Pages: 20\nNumber of Characters: 2\nTarget Age Group: Picture Books (3-5)\nDimensions: 1024x1024\nAuthor Name: By Latency Test\nStory Title: Ava and the Glowing Pebble\n\nStrict test requirement: produce exactly 20 pages in Stage 1 and exactly 20 pages in Stage 2. Do not create Page 21. Keep the story coherent across all 20 pages. Keep both characters visually consistent in every image prompt, and paste the full character descriptions for every character present after each image prompt. Include the cover prompt.\n\n/no_think"
+  },
+  {
+    "id": "latency_10page_ben_and_the_tiny_compass",
+    "difficulty": "hard",
+    "max_tokens": 7600,
+    "description": "10-page long-form exact-count and character-continuity latency test.",
+    "input": "Story Summary: A child named Ben finds a tiny compass in the kitchen windowsill. With help from talking pencil Dot, Ben learns that patience helps wonderful things grow.\nStory Type: Moral\nNumber of Pages: 10\nNumber of Characters: 2\nTarget Age Group: Picture Books (3-5)\nDimensions: 1024x1024\nAuthor Name: By Latency Test\nStory Title: Ben and the Tiny Compass\n\nStrict test requirement: produce exactly 10 pages in Stage 1 and exactly 10 pages in Stage 2. Do not create Page 11. Keep the story coherent across all 10 pages. Keep both characters visually consistent in every image prompt, and paste the full character descriptions for every character present after each image prompt. Include the cover prompt.\n\n/no_think"
+  },
+  {
+    "id": "latency_11page_cora_and_the_silver_button",
+    "difficulty": "hard",
+    "max_tokens": 8300,
+    "description": "11-page long-form exact-count and character-continuity latency test.",
+    "input": "Story Summary: A child named Cora finds a silver button in the school art room. With help from small drone Bee, Cora learns that asking for help can solve a hard problem.\nStory Type: Moral\nNumber of Pages: 11\nNumber of Characters: 2\nTarget Age Group: Picture Books (3-5)\nDimensions: 1024x1024\nAuthor Name: By Latency Test\nStory Title: Cora and the Silver Button\n\nStrict test requirement: produce exactly 11 pages in Stage 1 and exactly 11 pages in Stage 2. Do not create Page 12. Keep the story coherent across all 11 pages. Keep both characters visually consistent in every image prompt, and paste the full character descriptions for every character present after each image prompt. Include the cover prompt.\n\n/no_think"
+  },
+  {
+    "id": "latency_12page_dev_and_the_paper_boat",
+    "difficulty": "hard",
+    "max_tokens": 9000,
+    "description": "12-page long-form exact-count and character-continuity latency test.",
+    "input": "Story Summary: A child named Dev finds a paper boat in the quiet library corner. With help from stuffed bear Momo, Dev learns that telling the truth keeps friendships strong.\nStory Type: Moral\nNumber of Pages: 12\nNumber of Characters: 2\nTarget Age Group: Picture Books (3-5)\nDimensions: 1024x1024\nAuthor Name: By Latency Test\nStory Title: Dev and the Paper Boat\n\nStrict test requirement: produce exactly 12 pages in Stage 1 and exactly 12 pages in Stage 2. Do not create Page 13. Keep the story coherent across all 12 pages. Keep both characters visually consistent in every image prompt, and paste the full character descriptions for every character present after each image prompt. Include the cover prompt.\n\n/no_think"
+  },
+  {
+    "id": "latency_13page_ella_and_the_blue_feather",
+    "difficulty": "hard",
+    "max_tokens": 9700,
+    "description": "13-page long-form exact-count and character-continuity latency test.",
+    "input": "Story Summary: A child named Ella finds a blue feather in the rainy porch. With help from wind-up turtle Tuck, Ella learns that careful listening helps everyone feel seen.\nStory Type: Moral\nNumber of Pages: 13\nNumber of Characters: 2\nTarget Age Group: Picture Books (3-5)\nDimensions: 1024x1024\nAuthor Name: By Latency Test\nStory Title: Ella and the Blue Feather\n\nStrict test requirement: produce exactly 13 pages in Stage 1 and exactly 13 pages in Stage 2. Do not create Page 14. Keep the story coherent across all 13 pages. Keep both characters visually consistent in every image prompt, and paste the full character descriptions for every character present after each image prompt. Include the cover prompt.\n\n/no_think"
+  },
+  {
+    "id": "latency_14page_finn_and_the_wooden_key",
+    "difficulty": "hard",
+    "max_tokens": 10400,
+    "description": "14-page long-form exact-count and character-continuity latency test.",
+    "input": "Story Summary: A child named Finn finds a wooden key in the sunny park path. With help from paper bird Pippa, Finn learns that small brave steps can lead to big discoveries.\nStory Type: Moral\nNumber of Pages: 14\nNumber of Characters: 2\nTarget Age Group: Picture Books (3-5)\nDimensions: 1024x1024\nAuthor Name: By Latency Test\nStory Title: Finn and the Wooden Key\n\nStrict test requirement: produce exactly 14 pages in Stage 1 and exactly 14 pages in Stage 2. Do not create Page 15. Keep the story coherent across all 14 pages. Keep both characters visually consistent in every image prompt, and paste the full character descriptions for every character present after each image prompt. Include the cover prompt.\n\n/no_think"
+  },
+  {
+    "id": "latency_15page_gia_and_the_music_box",
+    "difficulty": "hard",
+    "max_tokens": 11100,
+    "description": "15-page long-form exact-count and character-continuity latency test.",
+    "input": "Story Summary: A child named Gia finds a music box in the bedroom blanket fort. With help from toy train Toot, Gia learns that cleaning up together makes work feel lighter.\nStory Type: Moral\nNumber of Pages: 15\nNumber of Characters: 2\nTarget Age Group: Picture Books (3-5)\nDimensions: 1024x1024\nAuthor Name: By Latency Test\nStory Title: Gia and the Music Box\n\nStrict test requirement: produce exactly 15 pages in Stage 1 and exactly 15 pages in Stage 2. Do not create Page 16. Keep the story coherent across all 15 pages. Keep both characters visually consistent in every image prompt, and paste the full character descriptions for every character present after each image prompt. Include the cover prompt.\n\n/no_think"
+  },
+  {
+    "id": "latency_16page_hugo_and_the_seed_bell",
+    "difficulty": "hard",
+    "max_tokens": 11800,
+    "description": "16-page long-form exact-count and character-continuity latency test.",
+    "input": "Story Summary: A child named Hugo finds a seed bell in the community garden. With help from wooden fox Nix, Hugo learns that kind words can change a gloomy day.\nStory Type: Moral\nNumber of Pages: 16\nNumber of Characters: 2\nTarget Age Group: Picture Books (3-5)\nDimensions: 1024x1024\nAuthor Name: By Latency Test\nStory Title: Hugo and the Seed Bell\n\nStrict test requirement: produce exactly 16 pages in Stage 1 and exactly 16 pages in Stage 2. Do not create Page 17. Keep the story coherent across all 16 pages. Keep both characters visually consistent in every image prompt, and paste the full character descriptions for every character present after each image prompt. Include the cover prompt.\n\n/no_think"
+  },
+  {
+    "id": "latency_17page_ivy_and_the_moon_shell",
+    "difficulty": "hard",
+    "max_tokens": 12500,
+    "description": "17-page long-form exact-count and character-continuity latency test.",
+    "input": "Story Summary: A child named Ivy finds a moon shell in the treehouse deck. With help from tiny boat Bob, Ivy learns that sharing makes a small light brighter.\nStory Type: Moral\nNumber of Pages: 17\nNumber of Characters: 2\nTarget Age Group: Picture Books (3-5)\nDimensions: 1024x1024\nAuthor Name: By Latency Test\nStory Title: Ivy and the Moon Shell\n\nStrict test requirement: produce exactly 17 pages in Stage 1 and exactly 17 pages in Stage 2. Do not create Page 18. Keep the story coherent across all 17 pages. Keep both characters visually consistent in every image prompt, and paste the full character descriptions for every character present after each image prompt. Include the cover prompt.\n\n/no_think"
+  },
+  {
+    "id": "latency_18page_jai_and_the_clockwork_bee",
+    "difficulty": "hard",
+    "max_tokens": 13200,
+    "description": "18-page long-form exact-count and character-continuity latency test.",
+    "input": "Story Summary: A child named Jai finds a clockwork bee in the attic playroom. With help from plush bunny Bim, Jai learns that patience helps wonderful things grow.\nStory Type: Moral\nNumber of Pages: 18\nNumber of Characters: 2\nTarget Age Group: Picture Books (3-5)\nDimensions: 1024x1024\nAuthor Name: By Latency Test\nStory Title: Jai and the Clockwork Bee\n\nStrict test requirement: produce exactly 18 pages in Stage 1 and exactly 18 pages in Stage 2. Do not create Page 19. Keep the story coherent across all 18 pages. Keep both characters visually consistent in every image prompt, and paste the full character descriptions for every character present after each image prompt. Include the cover prompt.\n\n/no_think"
+  },
+  {
+    "id": "latency_19page_kira_and_the_painted_kite",
+    "difficulty": "hard",
+    "max_tokens": 13900,
+    "description": "19-page long-form exact-count and character-continuity latency test.",
+    "input": "Story Summary: A child named Kira finds a painted kite in the beach tide pool. With help from clockwork crab Click, Kira learns that asking for help can solve a hard problem.\nStory Type: Moral\nNumber of Pages: 19\nNumber of Characters: 2\nTarget Age Group: Picture Books (3-5)\nDimensions: 1024x1024\nAuthor Name: By Latency Test\nStory Title: Kira and the Painted Kite\n\nStrict test requirement: produce exactly 19 pages in Stage 1 and exactly 19 pages in Stage 2. Do not create Page 20. Keep the story coherent across all 19 pages. Keep both characters visually consistent in every image prompt, and paste the full character descriptions for every character present after each image prompt. Include the cover prompt.\n\n/no_think"
+  },
+  {
+    "id": "latency_20page_leo_and_the_brass_acorn",
+    "difficulty": "hard",
+    "max_tokens": 14600,
+    "description": "20-page long-form exact-count and character-continuity latency test.",
+    "input": "Story Summary: A child named Leo finds a brass acorn in the apartment balcony. With help from little kite Koko, Leo learns that telling the truth keeps friendships strong.\nStory Type: Moral\nNumber of Pages: 20\nNumber of Characters: 2\nTarget Age Group: Picture Books (3-5)\nDimensions: 1024x1024\nAuthor Name: By Latency Test\nStory Title: Leo and the Brass Acorn\n\nStrict test requirement: produce exactly 20 pages in Stage 1 and exactly 20 pages in Stage 2. Do not create Page 21. Keep the story coherent across all 20 pages. Keep both characters visually consistent in every image prompt, and paste the full character descriptions for every character present after each image prompt. Include the cover prompt.\n\n/no_think"
+  },
+  {
+    "id": "latency_21page_mia_and_the_rainbow_marble",
+    "difficulty": "hard",
+    "max_tokens": 15300,
+    "description": "21-page long-form exact-count and character-continuity latency test.",
+    "input": "Story Summary: A child named Mia finds a rainbow marble in the backyard garden. With help from toy astronaut Nova, Mia learns that careful listening helps everyone feel seen.\nStory Type: Moral\nNumber of Pages: 21\nNumber of Characters: 2\nTarget Age Group: Picture Books (3-5)\nDimensions: 1024x1024\nAuthor Name: By Latency Test\nStory Title: Mia and the Rainbow Marble\n\nStrict test requirement: produce exactly 21 pages in Stage 1 and exactly 21 pages in Stage 2. Do not create Page 22. Keep the story coherent across all 21 pages. Keep both characters visually consistent in every image prompt, and paste the full character descriptions for every character present after each image prompt. Include the cover prompt.\n\n/no_think"
+  },
+  {
+    "id": "latency_22page_nico_and_the_little_lantern",
+    "difficulty": "hard",
+    "max_tokens": 16000,
+    "description": "22-page long-form exact-count and character-continuity latency test.",
+    "input": "Story Summary: A child named Nico finds a little lantern in the kitchen windowsill. With help from paintbrush Pal, Nico learns that small brave steps can lead to big discoveries.\nStory Type: Moral\nNumber of Pages: 22\nNumber of Characters: 2\nTarget Age Group: Picture Books (3-5)\nDimensions: 1024x1024\nAuthor Name: By Latency Test\nStory Title: Nico and the Little Lantern\n\nStrict test requirement: produce exactly 22 pages in Stage 1 and exactly 22 pages in Stage 2. Do not create Page 23. Keep the story coherent across all 22 pages. Keep both characters visually consistent in every image prompt, and paste the full character descriptions for every character present after each image prompt. Include the cover prompt.\n\n/no_think"
+  },
+  {
+    "id": "latency_23page_ola_and_the_map_leaf",
+    "difficulty": "hard",
+    "max_tokens": 16700,
+    "description": "23-page long-form exact-count and character-continuity latency test.",
+    "input": "Story Summary: A child named Ola finds a map leaf in the school art room. With help from stuffed cat Luna, Ola learns that cleaning up together makes work feel lighter.\nStory Type: Moral\nNumber of Pages: 23\nNumber of Characters: 2\nTarget Age Group: Picture Books (3-5)\nDimensions: 1024x1024\nAuthor Name: By Latency Test\nStory Title: Ola and the Map Leaf\n\nStrict test requirement: produce exactly 23 pages in Stage 1 and exactly 23 pages in Stage 2. Do not create Page 24. Keep the story coherent across all 23 pages. Keep both characters visually consistent in every image prompt, and paste the full character descriptions for every character present after each image prompt. Include the cover prompt.\n\n/no_think"
+  },
+  {
+    "id": "latency_24page_pia_and_the_crystal_spoon",
+    "difficulty": "hard",
+    "max_tokens": 17400,
+    "description": "24-page long-form exact-count and character-continuity latency test.",
+    "input": "Story Summary: A child named Pia finds a crystal spoon in the quiet library corner. With help from toy dragon Puff, Pia learns that kind words can change a gloomy day.\nStory Type: Moral\nNumber of Pages: 24\nNumber of Characters: 2\nTarget Age Group: Picture Books (3-5)\nDimensions: 1024x1024\nAuthor Name: By Latency Test\nStory Title: Pia and the Crystal Spoon\n\nStrict test requirement: produce exactly 24 pages in Stage 1 and exactly 24 pages in Stage 2. Do not create Page 25. Keep the story coherent across all 24 pages. Keep both characters visually consistent in every image prompt, and paste the full character descriptions for every character present after each image prompt. Include the cover prompt.\n\n/no_think"
+  },
+  {
+    "id": "latency_25page_quin_and_the_star_sticker",
+    "difficulty": "hard",
+    "max_tokens": 18100,
+    "description": "25-page long-form exact-count and character-continuity latency test.",
+    "input": "Story Summary: A child named Quin finds a star sticker in the rainy porch. With help from toy robot Pip, Quin learns that sharing makes a small light brighter.\nStory Type: Moral\nNumber of Pages: 25\nNumber of Characters: 2\nTarget Age Group: Picture Books (3-5)\nDimensions: 1024x1024\nAuthor Name: By Latency Test\nStory Title: Quin and the Star Sticker\n\nStrict test requirement: produce exactly 25 pages in Stage 1 and exactly 25 pages in Stage 2. Do not create Page 26. Keep the story coherent across all 25 pages. Keep both characters visually consistent in every image prompt, and paste the full character descriptions for every character present after each image prompt. Include the cover prompt.\n\n/no_think"
+  },
+  {
+    "id": "latency_26page_riya_and_the_snow_globe",
+    "difficulty": "hard",
+    "max_tokens": 18800,
+    "description": "26-page long-form exact-count and character-continuity latency test.",
+    "input": "Story Summary: A child named Riya finds a snow globe in the sunny park path. With help from talking pencil Dot, Riya learns that patience helps wonderful things grow.\nStory Type: Moral\nNumber of Pages: 26\nNumber of Characters: 2\nTarget Age Group: Picture Books (3-5)\nDimensions: 1024x1024\nAuthor Name: By Latency Test\nStory Title: Riya and the Snow Globe\n\nStrict test requirement: produce exactly 26 pages in Stage 1 and exactly 26 pages in Stage 2. Do not create Page 27. Keep the story coherent across all 26 pages. Keep both characters visually consistent in every image prompt, and paste the full character descriptions for every character present after each image prompt. Include the cover prompt.\n\n/no_think"
+  },
+  {
+    "id": "latency_27page_sam_and_the_copper_whistle",
+    "difficulty": "hard",
+    "max_tokens": 19500,
+    "description": "27-page long-form exact-count and character-continuity latency test.",
+    "input": "Story Summary: A child named Sam finds a copper whistle in the bedroom blanket fort. With help from small drone Bee, Sam learns that asking for help can solve a hard problem.\nStory Type: Moral\nNumber of Pages: 27\nNumber of Characters: 2\nTarget Age Group: Picture Books (3-5)\nDimensions: 1024x1024\nAuthor Name: By Latency Test\nStory Title: Sam and the Copper Whistle\n\nStrict test requirement: produce exactly 27 pages in Stage 1 and exactly 27 pages in Stage 2. Do not create Page 28. Keep the story coherent across all 27 pages. Keep both characters visually consistent in every image prompt, and paste the full character descriptions for every character present after each image prompt. Include the cover prompt.\n\n/no_think"
+  },
+  {
+    "id": "latency_28page_tara_and_the_sunny_badge",
+    "difficulty": "hard",
+    "max_tokens": 20200,
+    "description": "28-page long-form exact-count and character-continuity latency test.",
+    "input": "Story Summary: A child named Tara finds a sunny badge in the community garden. With help from stuffed bear Momo, Tara learns that telling the truth keeps friendships strong.\nStory Type: Moral\nNumber of Pages: 28\nNumber of Characters: 2\nTarget Age Group: Picture Books (3-5)\nDimensions: 1024x1024\nAuthor Name: By Latency Test\nStory Title: Tara and the Sunny Badge\n\nStrict test requirement: produce exactly 28 pages in Stage 1 and exactly 28 pages in Stage 2. Do not create Page 29. Keep the story coherent across all 28 pages. Keep both characters visually consistent in every image prompt, and paste the full character descriptions for every character present after each image prompt. Include the cover prompt.\n\n/no_think"
+  },
+  {
+    "id": "latency_29page_uma_and_the_cloud_ribbon",
+    "difficulty": "hard",
+    "max_tokens": 20900,
+    "description": "29-page long-form exact-count and character-continuity latency test.",
+    "input": "Story Summary: A child named Uma finds a cloud ribbon in the treehouse deck. With help from wind-up turtle Tuck, Uma learns that careful listening helps everyone feel seen.\nStory Type: Moral\nNumber of Pages: 29\nNumber of Characters: 2\nTarget Age Group: Picture Books (3-5)\nDimensions: 1024x1024\nAuthor Name: By Latency Test\nStory Title: Uma and the Cloud Ribbon\n\nStrict test requirement: produce exactly 29 pages in Stage 1 and exactly 29 pages in Stage 2. Do not create Page 30. Keep the story coherent across all 29 pages. Keep both characters visually consistent in every image prompt, and paste the full character descriptions for every character present after each image prompt. Include the cover prompt.\n\n/no_think"
+  },
+  {
+    "id": "latency_30page_vik_and_the_garden_spool",
+    "difficulty": "hard",
+    "max_tokens": 22000,
+    "description": "30-page long-form exact-count and character-continuity latency test.",
+    "input": "Story Summary: A child named Vik finds a garden spool in the attic playroom. With help from paper bird Pippa, Vik learns that small brave steps can lead to big discoveries.\nStory Type: Moral\nNumber of Pages: 30\nNumber of Characters: 2\nTarget Age Group: Picture Books (3-5)\nDimensions: 1024x1024\nAuthor Name: By Latency Test\nStory Title: Vik and the Garden Spool\n\nStrict test requirement: produce exactly 30 pages in Stage 1 and exactly 30 pages in Stage 2. Do not create Page 31. Keep the story coherent across all 30 pages. Keep both characters visually consistent in every image prompt, and paste the full character descriptions for every character present after each image prompt. Include the cover prompt.\n\n/no_think"
+  },
+  {
+    "id": "latency_10page_wren_and_the_shell_mirror",
+    "difficulty": "hard",
+    "max_tokens": 7600,
+    "description": "10-page long-form exact-count and character-continuity latency test.",
+    "input": "Story Summary: A child named Wren finds a shell mirror in the beach tide pool. With help from toy train Toot, Wren learns that cleaning up together makes work feel lighter.\nStory Type: Moral\nNumber of Pages: 10\nNumber of Characters: 2\nTarget Age Group: Picture Books (3-5)\nDimensions: 1024x1024\nAuthor Name: By Latency Test\nStory Title: Wren and the Shell Mirror\n\nStrict test requirement: produce exactly 10 pages in Stage 1 and exactly 10 pages in Stage 2. Do not create Page 11. Keep the story coherent across all 10 pages. Keep both characters visually consistent in every image prompt, and paste the full character descriptions for every character present after each image prompt. Include the cover prompt.\n\n/no_think"
+  },
+  {
+    "id": "latency_11page_xavi_and_the_pocket_drum",
+    "difficulty": "hard",
+    "max_tokens": 8300,
+    "description": "11-page long-form exact-count and character-continuity latency test.",
+    "input": "Story Summary: A child named Xavi finds a pocket drum in the apartment balcony. With help from wooden fox Nix, Xavi learns that kind words can change a gloomy day.\nStory Type: Moral\nNumber of Pages: 11\nNumber of Characters: 2\nTarget Age Group: Picture Books (3-5)\nDimensions: 1024x1024\nAuthor Name: By Latency Test\nStory Title: Xavi and the Pocket Drum\n\nStrict test requirement: produce exactly 11 pages in Stage 1 and exactly 11 pages in Stage 2. Do not create Page 12. Keep the story coherent across all 11 pages. Keep both characters visually consistent in every image prompt, and paste the full character descriptions for every character present after each image prompt. Include the cover prompt.\n\n/no_think"
+  },
+  {
+    "id": "latency_12page_yara_and_the_sparkle_jar",
+    "difficulty": "hard",
+    "max_tokens": 9000,
+    "description": "12-page long-form exact-count and character-continuity latency test.",
+    "input": "Story Summary: A child named Yara finds a sparkle jar in the backyard garden. With help from tiny boat Bob, Yara learns that sharing makes a small light brighter.\nStory Type: Moral\nNumber of Pages: 12\nNumber of Characters: 2\nTarget Age Group: Picture Books (3-5)\nDimensions: 1024x1024\nAuthor Name: By Latency Test\nStory Title: Yara and the Sparkle Jar\n\nStrict test requirement: produce exactly 12 pages in Stage 1 and exactly 12 pages in Stage 2. Do not create Page 13. Keep the story coherent across all 12 pages. Keep both characters visually consistent in every image prompt, and paste the full character descriptions for every character present after each image prompt. Include the cover prompt.\n\n/no_think"
+  },
+  {
+    "id": "latency_13page_zed_and_the_soft_scarf",
+    "difficulty": "hard",
+    "max_tokens": 9700,
+    "description": "13-page long-form exact-count and character-continuity latency test.",
+    "input": "Story Summary: A child named Zed finds a soft scarf in the kitchen windowsill. With help from plush bunny Bim, Zed learns that patience helps wonderful things grow.\nStory Type: Moral\nNumber of Pages: 13\nNumber of Characters: 2\nTarget Age Group: Picture Books (3-5)\nDimensions: 1024x1024\nAuthor Name: By Latency Test\nStory Title: Zed and the Soft Scarf\n\nStrict test requirement: produce exactly 13 pages in Stage 1 and exactly 13 pages in Stage 2. Do not create Page 14. Keep the story coherent across all 13 pages. Keep both characters visually consistent in every image prompt, and paste the full character descriptions for every character present after each image prompt. Include the cover prompt.\n\n/no_think"
+  },
+  {
+    "id": "latency_14page_anya_and_the_wind_chime",
+    "difficulty": "hard",
+    "max_tokens": 10400,
+    "description": "14-page long-form exact-count and character-continuity latency test.",
+    "input": "Story Summary: A child named Anya finds a wind chime in the school art room. With help from clockwork crab Click, Anya learns that asking for help can solve a hard problem.\nStory Type: Moral\nNumber of Pages: 14\nNumber of Characters: 2\nTarget Age Group: Picture Books (3-5)\nDimensions: 1024x1024\nAuthor Name: By Latency Test\nStory Title: Anya and the Wind Chime\n\nStrict test requirement: produce exactly 14 pages in Stage 1 and exactly 14 pages in Stage 2. Do not create Page 15. Keep the story coherent across all 14 pages. Keep both characters visually consistent in every image prompt, and paste the full character descriptions for every character present after each image prompt. Include the cover prompt.\n\n/no_think"
+  },
+  {
+    "id": "latency_15page_bodhi_and_the_leaf_crown",
+    "difficulty": "hard",
+    "max_tokens": 11100,
+    "description": "15-page long-form exact-count and character-continuity latency test.",
+    "input": "Story Summary: A child named Bodhi finds a leaf crown in the quiet library corner. With help from little kite Koko, Bodhi learns that telling the truth keeps friendships strong.\nStory Type: Moral\nNumber of Pages: 15\nNumber of Characters: 2\nTarget Age Group: Picture Books (3-5)\nDimensions: 1024x1024\nAuthor Name: By Latency Test\nStory Title: Bodhi and the Leaf Crown\n\nStrict test requirement: produce exactly 15 pages in Stage 1 and exactly 15 pages in Stage 2. Do not create Page 16. Keep the story coherent across all 15 pages. Keep both characters visually consistent in every image prompt, and paste the full character descriptions for every character present after each image prompt. Include the cover prompt.\n\n/no_think"
+  },
+  {
+    "id": "latency_16page_clio_and_the_tiny_telescope",
+    "difficulty": "hard",
+    "max_tokens": 11800,
+    "description": "16-page long-form exact-count and character-continuity latency test.",
+    "input": "Story Summary: A child named Clio finds a tiny telescope in the rainy porch. With help from toy astronaut Nova, Clio learns that careful listening helps everyone feel seen.\nStory Type: Moral\nNumber of Pages: 16\nNumber of Characters: 2\nTarget Age Group: Picture Books (3-5)\nDimensions: 1024x1024\nAuthor Name: By Latency Test\nStory Title: Clio and the Tiny Telescope\n\nStrict test requirement: produce exactly 16 pages in Stage 1 and exactly 16 pages in Stage 2. Do not create Page 17. Keep the story coherent across all 16 pages. Keep both characters visually consistent in every image prompt, and paste the full character descriptions for every character present after each image prompt. Include the cover prompt.\n\n/no_think"
+  },
+  {
+    "id": "latency_17page_dara_and_the_singing_cup",
+    "difficulty": "hard",
+    "max_tokens": 12500,
+    "description": "17-page long-form exact-count and character-continuity latency test.",
+    "input": "Story Summary: A child named Dara finds a singing cup in the sunny park path. With help from paintbrush Pal, Dara learns that small brave steps can lead to big discoveries.\nStory Type: Moral\nNumber of Pages: 17\nNumber of Characters: 2\nTarget Age Group: Picture Books (3-5)\nDimensions: 1024x1024\nAuthor Name: By Latency Test\nStory Title: Dara and the Singing Cup\n\nStrict test requirement: produce exactly 17 pages in Stage 1 and exactly 17 pages in Stage 2. Do not create Page 18. Keep the story coherent across all 17 pages. Keep both characters visually consistent in every image prompt, and paste the full character descriptions for every character present after each image prompt. Include the cover prompt.\n\n/no_think"
+  },
+  {
+    "id": "latency_18page_eli_and_the_golden_pencil",
+    "difficulty": "hard",
+    "max_tokens": 13200,
+    "description": "18-page long-form exact-count and character-continuity latency test.",
+    "input": "Story Summary: A child named Eli finds a golden pencil in the bedroom blanket fort. With help from stuffed cat Luna, Eli learns that cleaning up together makes work feel lighter.\nStory Type: Moral\nNumber of Pages: 18\nNumber of Characters: 2\nTarget Age Group: Picture Books (3-5)\nDimensions: 1024x1024\nAuthor Name: By Latency Test\nStory Title: Eli and the Golden Pencil\n\nStrict test requirement: produce exactly 18 pages in Stage 1 and exactly 18 pages in Stage 2. Do not create Page 19. Keep the story coherent across all 18 pages. Keep both characters visually consistent in every image prompt, and paste the full character descriptions for every character present after each image prompt. Include the cover prompt.\n\n/no_think"
+  },
+  {
+    "id": "latency_19page_faye_and_the_story_stone",
+    "difficulty": "hard",
+    "max_tokens": 13900,
+    "description": "19-page long-form exact-count and character-continuity latency test.",
+    "input": "Story Summary: A child named Faye finds a story stone in the community garden. With help from toy dragon Puff, Faye learns that kind words can change a gloomy day.\nStory Type: Moral\nNumber of Pages: 19\nNumber of Characters: 2\nTarget Age Group: Picture Books (3-5)\nDimensions: 1024x1024\nAuthor Name: By Latency Test\nStory Title: Faye and the Story Stone\n\nStrict test requirement: produce exactly 19 pages in Stage 1 and exactly 19 pages in Stage 2. Do not create Page 20. Keep the story coherent across all 19 pages. Keep both characters visually consistent in every image prompt, and paste the full character descriptions for every character present after each image prompt. Include the cover prompt.\n\n/no_think"
+  },
+  {
+    "id": "latency_20page_gus_and_the_bubble_wand",
+    "difficulty": "hard",
+    "max_tokens": 14600,
+    "description": "20-page long-form exact-count and character-continuity latency test.",
+    "input": "Story Summary: A child named Gus finds a bubble wand in the treehouse deck. With help from toy robot Pip, Gus learns that sharing makes a small light brighter.\nStory Type: Moral\nNumber of Pages: 20\nNumber of Characters: 2\nTarget Age Group: Picture Books (3-5)\nDimensions: 1024x1024\nAuthor Name: By Latency Test\nStory Title: Gus and the Bubble Wand\n\nStrict test requirement: produce exactly 20 pages in Stage 1 and exactly 20 pages in Stage 2. Do not create Page 21. Keep the story coherent across all 20 pages. Keep both characters visually consistent in every image prompt, and paste the full character descriptions for every character present after each image prompt. Include the cover prompt.\n\n/no_think"
+  },
+  {
+    "id": "latency_21page_hana_and_the_feather_brush",
+    "difficulty": "hard",
+    "max_tokens": 15300,
+    "description": "21-page long-form exact-count and character-continuity latency test.",
+    "input": "Story Summary: A child named Hana finds a feather brush in the attic playroom. With help from talking pencil Dot, Hana learns that patience helps wonderful things grow.\nStory Type: Moral\nNumber of Pages: 21\nNumber of Characters: 2\nTarget Age Group: Picture Books (3-5)\nDimensions: 1024x1024\nAuthor Name: By Latency Test\nStory Title: Hana and the Feather Brush\n\nStrict test requirement: produce exactly 21 pages in Stage 1 and exactly 21 pages in Stage 2. Do not create Page 22. Keep the story coherent across all 21 pages. Keep both characters visually consistent in every image prompt, and paste the full character descriptions for every character present after each image prompt. Include the cover prompt.\n\n/no_think"
+  },
+  {
+    "id": "latency_22page_ira_and_the_velvet_pouch",
+    "difficulty": "hard",
+    "max_tokens": 16000,
+    "description": "22-page long-form exact-count and character-continuity latency test.",
+    "input": "Story Summary: A child named Ira finds a velvet pouch in the beach tide pool. With help from small drone Bee, Ira learns that asking for help can solve a hard problem.\nStory Type: Moral\nNumber of Pages: 22\nNumber of Characters: 2\nTarget Age Group: Picture Books (3-5)\nDimensions: 1024x1024\nAuthor Name: By Latency Test\nStory Title: Ira and the Velvet Pouch\n\nStrict test requirement: produce exactly 22 pages in Stage 1 and exactly 22 pages in Stage 2. Do not create Page 23. Keep the story coherent across all 22 pages. Keep both characters visually consistent in every image prompt, and paste the full character descriptions for every character present after each image prompt. Include the cover prompt.\n\n/no_think"
+  },
+  {
+    "id": "latency_23page_juno_and_the_sleepy_candle",
+    "difficulty": "hard",
+    "max_tokens": 16700,
+    "description": "23-page long-form exact-count and character-continuity latency test.",
+    "input": "Story Summary: A child named Juno finds a sleepy candle in the apartment balcony. With help from stuffed bear Momo, Juno learns that telling the truth keeps friendships strong.\nStory Type: Moral\nNumber of Pages: 23\nNumber of Characters: 2\nTarget Age Group: Picture Books (3-5)\nDimensions: 1024x1024\nAuthor Name: By Latency Test\nStory Title: Juno and the Sleepy Candle\n\nStrict test requirement: produce exactly 23 pages in Stage 1 and exactly 23 pages in Stage 2. Do not create Page 24. Keep the story coherent across all 23 pages. Keep both characters visually consistent in every image prompt, and paste the full character descriptions for every character present after each image prompt. Include the cover prompt.\n\n/no_think"
+  },
+  {
+    "id": "latency_24page_kai_and_the_paper_crown",
+    "difficulty": "hard",
+    "max_tokens": 17400,
+    "description": "24-page long-form exact-count and character-continuity latency test.",
+    "input": "Story Summary: A child named Kai finds a paper crown in the backyard garden. With help from wind-up turtle Tuck, Kai learns that careful listening helps everyone feel seen.\nStory Type: Moral\nNumber of Pages: 24\nNumber of Characters: 2\nTarget Age Group: Picture Books (3-5)\nDimensions: 1024x1024\nAuthor Name: By Latency Test\nStory Title: Kai and the Paper Crown\n\nStrict test requirement: produce exactly 24 pages in Stage 1 and exactly 24 pages in Stage 2. Do not create Page 25. Keep the story coherent across all 24 pages. Keep both characters visually consistent in every image prompt, and paste the full character descriptions for every character present after each image prompt. Include the cover prompt.\n\n/no_think"
+  },
+  {
+    "id": "latency_25page_lina_and_the_little_ladder",
+    "difficulty": "hard",
+    "max_tokens": 18100,
+    "description": "25-page long-form exact-count and character-continuity latency test.",
+    "input": "Story Summary: A child named Lina finds a little ladder in the kitchen windowsill. With help from paper bird Pippa, Lina learns that small brave steps can lead to big discoveries.\nStory Type: Moral\nNumber of Pages: 25\nNumber of Characters: 2\nTarget Age Group: Picture Books (3-5)\nDimensions: 1024x1024\nAuthor Name: By Latency Test\nStory Title: Lina and the Little Ladder\n\nStrict test requirement: produce exactly 25 pages in Stage 1 and exactly 25 pages in Stage 2. Do not create Page 26. Keep the story coherent across all 25 pages. Keep both characters visually consistent in every image prompt, and paste the full character descriptions for every character present after each image prompt. Include the cover prompt.\n\n/no_think"
+  },
+  {
+    "id": "latency_26page_milo_and_the_honey_jar",
+    "difficulty": "hard",
+    "max_tokens": 18800,
+    "description": "26-page long-form exact-count and character-continuity latency test.",
+    "input": "Story Summary: A child named Milo finds a honey jar in the school art room. With help from toy train Toot, Milo learns that cleaning up together makes work feel lighter.\nStory Type: Moral\nNumber of Pages: 26\nNumber of Characters: 2\nTarget Age Group: Picture Books (3-5)\nDimensions: 1024x1024\nAuthor Name: By Latency Test\nStory Title: Milo and the Honey Jar\n\nStrict test requirement: produce exactly 26 pages in Stage 1 and exactly 26 pages in Stage 2. Do not create Page 27. Keep the story coherent across all 26 pages. Keep both characters visually consistent in every image prompt, and paste the full character descriptions for every character present after each image prompt. Include the cover prompt.\n\n/no_think"
+  },
+  {
+    "id": "latency_27page_nora_and_the_bright_bead",
+    "difficulty": "hard",
+    "max_tokens": 19500,
+    "description": "27-page long-form exact-count and character-continuity latency test.",
+    "input": "Story Summary: A child named Nora finds a bright bead in the quiet library corner. With help from wooden fox Nix, Nora learns that kind words can change a gloomy day.\nStory Type: Moral\nNumber of Pages: 27\nNumber of Characters: 2\nTarget Age Group: Picture Books (3-5)\nDimensions: 1024x1024\nAuthor Name: By Latency Test\nStory Title: Nora and the Bright Bead\n\nStrict test requirement: produce exactly 27 pages in Stage 1 and exactly 27 pages in Stage 2. Do not create Page 28. Keep the story coherent across all 27 pages. Keep both characters visually consistent in every image prompt, and paste the full character descriptions for every character present after each image prompt. Include the cover prompt.\n\n/no_think"
+  },
+  {
+    "id": "latency_28page_omar_and_the_mini_umbrella",
+    "difficulty": "hard",
+    "max_tokens": 20200,
+    "description": "28-page long-form exact-count and character-continuity latency test.",
+    "input": "Story Summary: A child named Omar finds a mini umbrella in the rainy porch. With help from tiny boat Bob, Omar learns that sharing makes a small light brighter.\nStory Type: Moral\nNumber of Pages: 28\nNumber of Characters: 2\nTarget Age Group: Picture Books (3-5)\nDimensions: 1024x1024\nAuthor Name: By Latency Test\nStory Title: Omar and the Mini Umbrella\n\nStrict test requirement: produce exactly 28 pages in Stage 1 and exactly 28 pages in Stage 2. Do not create Page 29. Keep the story coherent across all 28 pages. Keep both characters visually consistent in every image prompt, and paste the full character descriptions for every character present after each image prompt. Include the cover prompt.\n\n/no_think"
+  },
+  {
+    "id": "latency_29page_priya_and_the_green_notebook",
+    "difficulty": "hard",
+    "max_tokens": 20900,
+    "description": "29-page long-form exact-count and character-continuity latency test.",
+    "input": "Story Summary: A child named Priya finds a green notebook in the sunny park path. With help from plush bunny Bim, Priya learns that patience helps wonderful things grow.\nStory Type: Moral\nNumber of Pages: 29\nNumber of Characters: 2\nTarget Age Group: Picture Books (3-5)\nDimensions: 1024x1024\nAuthor Name: By Latency Test\nStory Title: Priya and the Green Notebook\n\nStrict test requirement: produce exactly 29 pages in Stage 1 and exactly 29 pages in Stage 2. Do not create Page 30. Keep the story coherent across all 29 pages. Keep both characters visually consistent in every image prompt, and paste the full character descriptions for every character present after each image prompt. Include the cover prompt.\n\n/no_think"
+  },
+  {
+    "id": "latency_30page_rafi_and_the_red_thread",
+    "difficulty": "hard",
+    "max_tokens": 22000,
+    "description": "30-page long-form exact-count and character-continuity latency test.",
+    "input": "Story Summary: A child named Rafi finds a red thread in the bedroom blanket fort. With help from clockwork crab Click, Rafi learns that asking for help can solve a hard problem.\nStory Type: Moral\nNumber of Pages: 30\nNumber of Characters: 2\nTarget Age Group: Picture Books (3-5)\nDimensions: 1024x1024\nAuthor Name: By Latency Test\nStory Title: Rafi and the Red Thread\n\nStrict test requirement: produce exactly 30 pages in Stage 1 and exactly 30 pages in Stage 2. Do not create Page 31. Keep the story coherent across all 30 pages. Keep both characters visually consistent in every image prompt, and paste the full character descriptions for every character present after each image prompt. Include the cover prompt.\n\n/no_think"
+  },
+  {
+    "id": "latency_10page_sia_and_the_small_bell",
+    "difficulty": "hard",
+    "max_tokens": 7600,
+    "description": "10-page long-form exact-count and character-continuity latency test.",
+    "input": "Story Summary: A child named Sia finds a small bell in the community garden. With help from little kite Koko, Sia learns that telling the truth keeps friendships strong.\nStory Type: Moral\nNumber of Pages: 10\nNumber of Characters: 2\nTarget Age Group: Picture Books (3-5)\nDimensions: 1024x1024\nAuthor Name: By Latency Test\nStory Title: Sia and the Small Bell\n\nStrict test requirement: produce exactly 10 pages in Stage 1 and exactly 10 pages in Stage 2. Do not create Page 11. Keep the story coherent across all 10 pages. Keep both characters visually consistent in every image prompt, and paste the full character descriptions for every character present after each image prompt. Include the cover prompt.\n\n/no_think"
+  },
+  {
+    "id": "latency_11page_theo_and_the_painted_coin",
+    "difficulty": "hard",
+    "max_tokens": 8300,
+    "description": "11-page long-form exact-count and character-continuity latency test.",
+    "input": "Story Summary: A child named Theo finds a painted coin in the treehouse deck. With help from toy astronaut Nova, Theo learns that careful listening helps everyone feel seen.\nStory Type: Moral\nNumber of Pages: 11\nNumber of Characters: 2\nTarget Age Group: Picture Books (3-5)\nDimensions: 1024x1024\nAuthor Name: By Latency Test\nStory Title: Theo and the Painted Coin\n\nStrict test requirement: produce exactly 11 pages in Stage 1 and exactly 11 pages in Stage 2. Do not create Page 12. Keep the story coherent across all 11 pages. Keep both characters visually consistent in every image prompt, and paste the full character descriptions for every character present after each image prompt. Include the cover prompt.\n\n/no_think"
+  },
+  {
+    "id": "latency_12page_una_and_the_secret_stamp",
+    "difficulty": "hard",
+    "max_tokens": 9000,
+    "description": "12-page long-form exact-count and character-continuity latency test.",
+    "input": "Story Summary: A child named Una finds a secret stamp in the attic playroom. With help from paintbrush Pal, Una learns that small brave steps can lead to big discoveries.\nStory Type: Moral\nNumber of Pages: 12\nNumber of Characters: 2\nTarget Age Group: Picture Books (3-5)\nDimensions: 1024x1024\nAuthor Name: By Latency Test\nStory Title: Una and the Secret Stamp\n\nStrict test requirement: produce exactly 12 pages in Stage 1 and exactly 12 pages in Stage 2. Do not create Page 13. Keep the story coherent across all 12 pages. Keep both characters visually consistent in every image prompt, and paste the full character descriptions for every character present after each image prompt. Include the cover prompt.\n\n/no_think"
+  },
+  {
+    "id": "latency_13page_vera_and_the_starry_cap",
+    "difficulty": "hard",
+    "max_tokens": 9700,
+    "description": "13-page long-form exact-count and character-continuity latency test.",
+    "input": "Story Summary: A child named Vera finds a starry cap in the beach tide pool. With help from stuffed cat Luna, Vera learns that cleaning up together makes work feel lighter.\nStory Type: Moral\nNumber of Pages: 13\nNumber of Characters: 2\nTarget Age Group: Picture Books (3-5)\nDimensions: 1024x1024\nAuthor Name: By Latency Test\nStory Title: Vera and the Starry Cap\n\nStrict test requirement: produce exactly 13 pages in Stage 1 and exactly 13 pages in Stage 2. Do not create Page 14. Keep the story coherent across all 13 pages. Keep both characters visually consistent in every image prompt, and paste the full character descriptions for every character present after each image prompt. Include the cover prompt.\n\n/no_think"
+  },
+  {
+    "id": "latency_14page_will_and_the_clay_turtle",
+    "difficulty": "hard",
+    "max_tokens": 10400,
+    "description": "14-page long-form exact-count and character-continuity latency test.",
+    "input": "Story Summary: A child named Will finds a clay turtle in the apartment balcony. With help from toy dragon Puff, Will learns that kind words can change a gloomy day.\nStory Type: Moral\nNumber of Pages: 14\nNumber of Characters: 2\nTarget Age Group: Picture Books (3-5)\nDimensions: 1024x1024\nAuthor Name: By Latency Test\nStory Title: Will and the Clay Turtle\n\nStrict test requirement: produce exactly 14 pages in Stage 1 and exactly 14 pages in Stage 2. Do not create Page 15. Keep the story coherent across all 14 pages. Keep both characters visually consistent in every image prompt, and paste the full character descriptions for every character present after each image prompt. Include the cover prompt.\n\n/no_think"
+  },
+  {
+    "id": "latency_15page_zara_and_the_glass_button",
+    "difficulty": "hard",
+    "max_tokens": 11100,
+    "description": "15-page long-form exact-count and character-continuity latency test.",
+    "input": "Story Summary: A child named Zara finds a glass button in the backyard garden. With help from toy robot Pip, Zara learns that sharing makes a small light brighter.\nStory Type: Moral\nNumber of Pages: 15\nNumber of Characters: 2\nTarget Age Group: Picture Books (3-5)\nDimensions: 1024x1024\nAuthor Name: By Latency Test\nStory Title: Zara and the Glass Button\n\nStrict test requirement: produce exactly 15 pages in Stage 1 and exactly 15 pages in Stage 2. Do not create Page 16. Keep the story coherent across all 15 pages. Keep both characters visually consistent in every image prompt, and paste the full character descriptions for every character present after each image prompt. Include the cover prompt.\n\n/no_think"
+  },
+  {
+    "id": "latency_16page_arlo_and_the_sun_coin",
+    "difficulty": "hard",
+    "max_tokens": 11800,
+    "description": "16-page long-form exact-count and character-continuity latency test.",
+    "input": "Story Summary: A child named Arlo finds a sun coin in the kitchen windowsill. With help from talking pencil Dot, Arlo learns that patience helps wonderful things grow.\nStory Type: Moral\nNumber of Pages: 16\nNumber of Characters: 2\nTarget Age Group: Picture Books (3-5)\nDimensions: 1024x1024\nAuthor Name: By Latency Test\nStory Title: Arlo and the Sun Coin\n\nStrict test requirement: produce exactly 16 pages in Stage 1 and exactly 16 pages in Stage 2. Do not create Page 17. Keep the story coherent across all 16 pages. Keep both characters visually consistent in every image prompt, and paste the full character descriptions for every character present after each image prompt. Include the cover prompt.\n\n/no_think"
+  },
+  {
+    "id": "latency_17page_bina_and_the_lucky_spoon",
+    "difficulty": "hard",
+    "max_tokens": 12500,
+    "description": "17-page long-form exact-count and character-continuity latency test.",
+    "input": "Story Summary: A child named Bina finds a lucky spoon in the school art room. With help from small drone Bee, Bina learns that asking for help can solve a hard problem.\nStory Type: Moral\nNumber of Pages: 17\nNumber of Characters: 2\nTarget Age Group: Picture Books (3-5)\nDimensions: 1024x1024\nAuthor Name: By Latency Test\nStory Title: Bina and the Lucky Spoon\n\nStrict test requirement: produce exactly 17 pages in Stage 1 and exactly 17 pages in Stage 2. Do not create Page 18. Keep the story coherent across all 17 pages. Keep both characters visually consistent in every image prompt, and paste the full character descriptions for every character present after each image prompt. Include the cover prompt.\n\n/no_think"
+  },
+  {
+    "id": "latency_18page_cleo_and_the_violet_ribbon",
+    "difficulty": "hard",
+    "max_tokens": 13200,
+    "description": "18-page long-form exact-count and character-continuity latency test.",
+    "input": "Story Summary: A child named Cleo finds a violet ribbon in the quiet library corner. With help from stuffed bear Momo, Cleo learns that telling the truth keeps friendships strong.\nStory Type: Moral\nNumber of Pages: 18\nNumber of Characters: 2\nTarget Age Group: Picture Books (3-5)\nDimensions: 1024x1024\nAuthor Name: By Latency Test\nStory Title: Cleo and the Violet Ribbon\n\nStrict test requirement: produce exactly 18 pages in Stage 1 and exactly 18 pages in Stage 2. Do not create Page 19. Keep the story coherent across all 18 pages. Keep both characters visually consistent in every image prompt, and paste the full character descriptions for every character present after each image prompt. Include the cover prompt.\n\n/no_think"
+  },
+  {
+    "id": "latency_19page_dion_and_the_kindness_card",
+    "difficulty": "hard",
+    "max_tokens": 13900,
+    "description": "19-page long-form exact-count and character-continuity latency test.",
+    "input": "Story Summary: A child named Dion finds a kindness card in the rainy porch. With help from wind-up turtle Tuck, Dion learns that careful listening helps everyone feel seen.\nStory Type: Moral\nNumber of Pages: 19\nNumber of Characters: 2\nTarget Age Group: Picture Books (3-5)\nDimensions: 1024x1024\nAuthor Name: By Latency Test\nStory Title: Dion and the Kindness Card\n\nStrict test requirement: produce exactly 19 pages in Stage 1 and exactly 19 pages in Stage 2. Do not create Page 20. Keep the story coherent across all 19 pages. Keep both characters visually consistent in every image prompt, and paste the full character descriptions for every character present after each image prompt. Include the cover prompt.\n\n/no_think"
+  },
+  {
+    "id": "latency_20page_emi_and_the_misty_gem",
+    "difficulty": "hard",
+    "max_tokens": 14600,
+    "description": "20-page long-form exact-count and character-continuity latency test.",
+    "input": "Story Summary: A child named Emi finds a misty gem in the sunny park path. With help from paper bird Pippa, Emi learns that small brave steps can lead to big discoveries.\nStory Type: Moral\nNumber of Pages: 20\nNumber of Characters: 2\nTarget Age Group: Picture Books (3-5)\nDimensions: 1024x1024\nAuthor Name: By Latency Test\nStory Title: Emi and the Misty Gem\n\nStrict test requirement: produce exactly 20 pages in Stage 1 and exactly 20 pages in Stage 2. Do not create Page 21. Keep the story coherent across all 20 pages. Keep both characters visually consistent in every image prompt, and paste the full character descriptions for every character present after each image prompt. Include the cover prompt.\n\n/no_think"
+  },
+  {
+    "id": "latency_21page_farah_and_the_flower_pin",
+    "difficulty": "hard",
+    "max_tokens": 15300,
+    "description": "21-page long-form exact-count and character-continuity latency test.",
+    "input": "Story Summary: A child named Farah finds a flower pin in the bedroom blanket fort. With help from toy train Toot, Farah learns that cleaning up together makes work feel lighter.\nStory Type: Moral\nNumber of Pages: 21\nNumber of Characters: 2\nTarget Age Group: Picture Books (3-5)\nDimensions: 1024x1024\nAuthor Name: By Latency Test\nStory Title: Farah and the Flower Pin\n\nStrict test requirement: produce exactly 21 pages in Stage 1 and exactly 21 pages in Stage 2. Do not create Page 22. Keep the story coherent across all 21 pages. Keep both characters visually consistent in every image prompt, and paste the full character descriptions for every character present after each image prompt. Include the cover prompt.\n\n/no_think"
+  },
+  {
+    "id": "latency_22page_glen_and_the_silver_seed",
+    "difficulty": "hard",
+    "max_tokens": 16000,
+    "description": "22-page long-form exact-count and character-continuity latency test.",
+    "input": "Story Summary: A child named Glen finds a silver seed in the community garden. With help from wooden fox Nix, Glen learns that kind words can change a gloomy day.\nStory Type: Moral\nNumber of Pages: 22\nNumber of Characters: 2\nTarget Age Group: Picture Books (3-5)\nDimensions: 1024x1024\nAuthor Name: By Latency Test\nStory Title: Glen and the Silver Seed\n\nStrict test requirement: produce exactly 22 pages in Stage 1 and exactly 22 pages in Stage 2. Do not create Page 23. Keep the story coherent across all 22 pages. Keep both characters visually consistent in every image prompt, and paste the full character descriptions for every character present after each image prompt. Include the cover prompt.\n\n/no_think"
+  },
+  {
+    "id": "latency_23page_hope_and_the_tiny_drum",
+    "difficulty": "hard",
+    "max_tokens": 16700,
+    "description": "23-page long-form exact-count and character-continuity latency test.",
+    "input": "Story Summary: A child named Hope finds a tiny drum in the treehouse deck. With help from tiny boat Bob, Hope learns that sharing makes a small light brighter.\nStory Type: Moral\nNumber of Pages: 23\nNumber of Characters: 2\nTarget Age Group: Picture Books (3-5)\nDimensions: 1024x1024\nAuthor Name: By Latency Test\nStory Title: Hope and the Tiny Drum\n\nStrict test requirement: produce exactly 23 pages in Stage 1 and exactly 23 pages in Stage 2. Do not create Page 24. Keep the story coherent across all 23 pages. Keep both characters visually consistent in every image prompt, and paste the full character descriptions for every character present after each image prompt. Include the cover prompt.\n\n/no_think"
+  },
+  {
+    "id": "latency_24page_ida_and_the_blue_bookmark",
+    "difficulty": "hard",
+    "max_tokens": 17400,
+    "description": "24-page long-form exact-count and character-continuity latency test.",
+    "input": "Story Summary: A child named Ida finds a blue bookmark in the attic playroom. With help from plush bunny Bim, Ida learns that patience helps wonderful things grow.\nStory Type: Moral\nNumber of Pages: 24\nNumber of Characters: 2\nTarget Age Group: Picture Books (3-5)\nDimensions: 1024x1024\nAuthor Name: By Latency Test\nStory Title: Ida and the Blue Bookmark\n\nStrict test requirement: produce exactly 24 pages in Stage 1 and exactly 24 pages in Stage 2. Do not create Page 25. Keep the story coherent across all 24 pages. Keep both characters visually consistent in every image prompt, and paste the full character descriptions for every character present after each image prompt. Include the cover prompt.\n\n/no_think"
+  },
+  {
+    "id": "latency_25page_joey_and_the_orange_shell",
+    "difficulty": "hard",
+    "max_tokens": 18100,
+    "description": "25-page long-form exact-count and character-continuity latency test.",
+    "input": "Story Summary: A child named Joey finds a orange shell in the beach tide pool. With help from clockwork crab Click, Joey learns that asking for help can solve a hard problem.\nStory Type: Moral\nNumber of Pages: 25\nNumber of Characters: 2\nTarget Age Group: Picture Books (3-5)\nDimensions: 1024x1024\nAuthor Name: By Latency Test\nStory Title: Joey and the Orange Shell\n\nStrict test requirement: produce exactly 25 pages in Stage 1 and exactly 25 pages in Stage 2. Do not create Page 26. Keep the story coherent across all 25 pages. Keep both characters visually consistent in every image prompt, and paste the full character descriptions for every character present after each image prompt. Include the cover prompt.\n\n/no_think"
+  },
+  {
+    "id": "latency_26page_luca_and_the_brave_badge",
+    "difficulty": "hard",
+    "max_tokens": 18800,
+    "description": "26-page long-form exact-count and character-continuity latency test.",
+    "input": "Story Summary: A child named Luca finds a brave badge in the apartment balcony. With help from little kite Koko, Luca learns that telling the truth keeps friendships strong.\nStory Type: Moral\nNumber of Pages: 26\nNumber of Characters: 2\nTarget Age Group: Picture Books (3-5)\nDimensions: 1024x1024\nAuthor Name: By Latency Test\nStory Title: Luca and the Brave Badge\n\nStrict test requirement: produce exactly 26 pages in Stage 1 and exactly 26 pages in Stage 2. Do not create Page 27. Keep the story coherent across all 26 pages. Keep both characters visually consistent in every image prompt, and paste the full character descriptions for every character present after each image prompt. Include the cover prompt.\n\n/no_think"
+  },
+  {
+    "id": "latency_27page_mina_and_the_glow_stick",
+    "difficulty": "hard",
+    "max_tokens": 19500,
+    "description": "27-page long-form exact-count and character-continuity latency test.",
+    "input": "Story Summary: A child named Mina finds a glow stick in the backyard garden. With help from toy astronaut Nova, Mina learns that careful listening helps everyone feel seen.\nStory Type: Moral\nNumber of Pages: 27\nNumber of Characters: 2\nTarget Age Group: Picture Books (3-5)\nDimensions: 1024x1024\nAuthor Name: By Latency Test\nStory Title: Mina and the Glow Stick\n\nStrict test requirement: produce exactly 27 pages in Stage 1 and exactly 27 pages in Stage 2. Do not create Page 28. Keep the story coherent across all 27 pages. Keep both characters visually consistent in every image prompt, and paste the full character descriptions for every character present after each image prompt. Include the cover prompt.\n\n/no_think"
+  },
+  {
+    "id": "latency_28page_noor_and_the_magic_chalk",
+    "difficulty": "hard",
+    "max_tokens": 20200,
+    "description": "28-page long-form exact-count and character-continuity latency test.",
+    "input": "Story Summary: A child named Noor finds a magic chalk in the kitchen windowsill. With help from paintbrush Pal, Noor learns that small brave steps can lead to big discoveries.\nStory Type: Moral\nNumber of Pages: 28\nNumber of Characters: 2\nTarget Age Group: Picture Books (3-5)\nDimensions: 1024x1024\nAuthor Name: By Latency Test\nStory Title: Noor and the Magic Chalk\n\nStrict test requirement: produce exactly 28 pages in Stage 1 and exactly 28 pages in Stage 2. Do not create Page 29. Keep the story coherent across all 28 pages. Keep both characters visually consistent in every image prompt, and paste the full character descriptions for every character present after each image prompt. Include the cover prompt.\n\n/no_think"
+  },
+  {
+    "id": "latency_29page_otis_and_the_rain_cup",
+    "difficulty": "hard",
+    "max_tokens": 20900,
+    "description": "29-page long-form exact-count and character-continuity latency test.",
+    "input": "Story Summary: A child named Otis finds a rain cup in the school art room. With help from stuffed cat Luna, Otis learns that cleaning up together makes work feel lighter.\nStory Type: Moral\nNumber of Pages: 29\nNumber of Characters: 2\nTarget Age Group: Picture Books (3-5)\nDimensions: 1024x1024\nAuthor Name: By Latency Test\nStory Title: Otis and the Rain Cup\n\nStrict test requirement: produce exactly 29 pages in Stage 1 and exactly 29 pages in Stage 2. Do not create Page 30. Keep the story coherent across all 29 pages. Keep both characters visually consistent in every image prompt, and paste the full character descriptions for every character present after each image prompt. Include the cover prompt.\n\n/no_think"
+  },
+  {
+    "id": "latency_30page_rumi_and_the_friendship_flag",
+    "difficulty": "hard",
+    "max_tokens": 22000,
+    "description": "30-page long-form exact-count and character-continuity latency test.",
+    "input": "Story Summary: A child named Rumi finds a friendship flag in the quiet library corner. With help from toy dragon Puff, Rumi learns that kind words can change a gloomy day.\nStory Type: Moral\nNumber of Pages: 30\nNumber of Characters: 2\nTarget Age Group: Picture Books (3-5)\nDimensions: 1024x1024\nAuthor Name: By Latency Test\nStory Title: Rumi and the Friendship Flag\n\nStrict test requirement: produce exactly 30 pages in Stage 1 and exactly 30 pages in Stage 2. Do not create Page 31. Keep the story coherent across all 30 pages. Keep both characters visually consistent in every image prompt, and paste the full character descriptions for every character present after each image prompt. Include the cover prompt.\n\n/no_think"
+  }
+]
